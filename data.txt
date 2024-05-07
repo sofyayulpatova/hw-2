@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FigureXMLDataManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OrdersList>
+    <Order>
+      <order_number>8b91ec2d-4905-4066-b6b2-51162cec4067</order_number>
+      <OrderDate>2024-03-19T22:49:12.896873+01:00</OrderDate>
+      <State>New</State>
+      <Customer xsi:type="Customer">
+        <Id>2</Id>
+        <Name>Karlis</Name>
+        <Surname>Zakis</Surname>
+        <Email>karlis.zakis@gmail.com</Email>
+      </Customer>
+      <ResponsibleEmployee xsi:type="Employee">
+        <Id>1</Id>
+        <Name>John</Name>
+        <Surname>Doe</Surname>
+        <Email>john.doe@gmail.com</Email>
+        <AgreementDate>2024-03-18T00:00:00+01:00</AgreementDate>
+        <AgreementNr>1</AgreementNr>
+      </ResponsibleEmployee>
+      <Details>
+        <OrderDetail>
+          <Product>
+            <Name>Laptop</Name>
+            <Price>999.99</Price>
+            <Mpn>1000</Mpn>
+          </Product>
+          <Amount>3</Amount>
+        </OrderDetail>
+      </Details>
+    </Order>
+    <Order>
+      <order_number>e3c9b1b4-03da-4d47-8685-56fda4bd7f29</order_number>
+      <OrderDate>2024-03-18T00:00:00+01:00</OrderDate>
+      <State>New</State>
+      <Customer xsi:type="Customer">
+        <Id>3</Id>
+        <Name>Lisa</Name>
+        <Surname>Liepina</Surname>
+        <Email>lisa.liepina@gmail.com</Email>
+      </Customer>
+      <ResponsibleEmployee xsi:type="Employee">
+        <Id>1</Id>
+        <Name>John</Name>
+        <Surname>Doe</Surname>
+        <Email>john.doe@gmail.com</Email>
+        <AgreementDate>2024-03-18T00:00:00+01:00</AgreementDate>
+        <AgreementNr>1</AgreementNr>
+      </ResponsibleEmployee>
+      <Details>
+        <OrderDetail>
+          <Product>
+            <Name>Smartphone</Name>
+            <Price>599.99</Price>
+            <Mpn>1001</Mpn>
+          </Product>
+          <Amount>1</Amount>
+        </OrderDetail>
+      </Details>
+    </Order>
+    <Order>
+      <order_number>76ed1bef-8e98-4106-9e33-c57ca2f0c4c7</order_number>
+      <OrderDate>2024-03-19T22:49:12.897994+01:00</OrderDate>
+      <State>New</State>
+      <Customer xsi:type="Customer">
+        <Id>3</Id>
+        <Name>Lisa</Name>
+        <Surname>Liepina</Surname>
+        <Email>lisa.liepina@gmail.com</Email>
+      </Customer>
+      <ResponsibleEmployee xsi:type="Employee">
+        <Id>1</Id>
+        <Name>John</Name>
+        <Surname>Doe</Surname>
+        <Email>john.doe@gmail.com</Email>
+        <AgreementDate>2024-03-18T00:00:00+01:00</AgreementDate>
+        <AgreementNr>1</AgreementNr>
+      </ResponsibleEmployee>
+      <Details>
+        <OrderDetail>
+          <Product>
+            <Name>Tablet</Name>
+            <Price>399.99</Price>
+            <Mpn>1002</Mpn>
+          </Product>
+          <Amount>3</Amount>
+        </OrderDetail>
+        <OrderDetail>
+          <Product>
+            <Name>Headphones</Name>
+            <Price>149.99</Price>
+            <Mpn>1003</Mpn>
+          </Product>
+          <Amount>1</Amount>
+        </OrderDetail>
+      </Details>
+    </Order>
+  </OrdersList>
+  <PersonsList>
+    <Person xsi:type="Employee">
+      <Id>1</Id>
+      <Name>John</Name>
+      <Surname>Doe</Surname>
+      <Email>john.doe@gmail.com</Email>
+      <AgreementDate>2024-03-18T00:00:00+01:00</AgreementDate>
+      <AgreementNr>1</AgreementNr>
+    </Person>
+    <Person xsi:type="Customer">
+      <Id>2</Id>
+      <Name>Karlis</Name>
+      <Surname>Zakis</Surname>
+      <Email>karlis.zakis@gmail.com</Email>
+    </Person>
+    <Person xsi:type="Customer">
+      <Id>3</Id>
+      <Name>Lisa</Name>
+      <Surname>Liepina</Surname>
+      <Email>lisa.liepina@gmail.com</Email>
+    </Person>
+  </PersonsList>
+  <CustomersList>
+    <Customer xsi:type="Customer">
+      <Id>2</Id>
+      <Name>Karlis</Name>
+      <Surname>Zakis</Surname>
+      <Email>karlis.zakis@gmail.com</Email>
+    </Customer>
+    <Customer xsi:type="Customer">
+      <Id>2</Id>
+      <Name>Karlis</Name>
+      <Surname>Zakis</Surname>
+      <Email>karlis.zakis@gmail.com</Email>
+    </Customer>
+    <Customer xsi:type="Customer">
+      <Id>3</Id>
+      <Name>Lisa</Name>
+      <Surname>Liepina</Surname>
+      <Email>lisa.liepina@gmail.com</Email>
+    </Customer>
+    <Customer xsi:type="Customer">
+      <Id>3</Id>
+      <Name>Lisa</Name>
+      <Surname>Liepina</Surname>
+      <Email>lisa.liepina@gmail.com</Email>
+    </Customer>
+  </CustomersList>
+  <EmployeeList>
+    <Employee xsi:type="Employee">
+      <Id>1</Id>
+      <Name>John</Name>
+      <Surname>Doe</Surname>
+      <Email>john.doe@gmail.com</Email>
+      <AgreementDate>2024-03-18T00:00:00+01:00</AgreementDate>
+      <AgreementNr>1</AgreementNr>
+    </Employee>
+    <Employee xsi:type="Employee">
+      <Id>1</Id>
+      <Name>John</Name>
+      <Surname>Doe</Surname>
+      <Email>john.doe@gmail.com</Email>
+      <AgreementDate>2024-03-18T00:00:00+01:00</AgreementDate>
+      <AgreementNr>1</AgreementNr>
+    </Employee>
+  </EmployeeList>
+  <products>
+    <Product>
+      <Name>Laptop</Name>
+      <Price>999.99</Price>
+      <Mpn>1000</Mpn>
+    </Product>
+    <Product>
+      <Name>Smartphone</Name>
+      <Price>599.99</Price>
+      <Mpn>1001</Mpn>
+    </Product>
+    <Product>
+      <Name>Tablet</Name>
+      <Price>399.99</Price>
+      <Mpn>1002</Mpn>
+    </Product>
+    <Product>
+      <Name>Headphones</Name>
+      <Price>149.99</Price>
+      <Mpn>1003</Mpn>
+    </Product>
+  </products>
+  <Path>/Users/sofya/Downloads/homework2/data.txt</Path>
+</FigureXMLDataManager>

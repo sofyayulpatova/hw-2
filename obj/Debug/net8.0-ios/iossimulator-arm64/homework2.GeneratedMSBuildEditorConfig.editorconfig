@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = homework2
+build_property.ProjectDir = /Users/sofya/Downloads/homework2/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/sofya/Downloads/homework2/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/sofya/Downloads/homework2/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/sofya/Downloads/homework2/DataCreation.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.DataCreation.xaml
+build_metadata.AdditionalFiles.TargetPath = DataCreation.xaml
+build_metadata.AdditionalFiles.RelativePath = DataCreation.xaml
+
+[/Users/sofya/Downloads/homework2/DataEditing.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.DataEditing.xaml
+build_metadata.AdditionalFiles.TargetPath = DataEditing.xaml
+build_metadata.AdditionalFiles.RelativePath = DataEditing.xaml
+
+[/Users/sofya/Downloads/homework2/DataExplore.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.DataExplore.xaml
+build_metadata.AdditionalFiles.TargetPath = DataExplore.xaml
+build_metadata.AdditionalFiles.RelativePath = DataExplore.xaml
+
+[/Users/sofya/Downloads/homework2/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/sofya/Downloads/homework2/OrderCreation.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.OrderCreation.xaml
+build_metadata.AdditionalFiles.TargetPath = OrderCreation.xaml
+build_metadata.AdditionalFiles.RelativePath = OrderCreation.xaml
+
+[/Users/sofya/Downloads/homework2/OrderDeletion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.OrderDeletion.xaml
+build_metadata.AdditionalFiles.TargetPath = OrderDeletion.xaml
+build_metadata.AdditionalFiles.RelativePath = OrderDeletion.xaml
+
+[/Users/sofya/Downloads/homework2/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/sofya/Downloads/homework2/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = homework2.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml

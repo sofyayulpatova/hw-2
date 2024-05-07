@@ -1,0 +1,15 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="homework2.DataEditing"
+             Title="Edit Product">
+    <StackLayout Padding="20">
+        <!-- MPN Entry -->
+        <Entry x:Name="mpnEntry" Placeholder="Enter MPN" />
+        <Button x:Name="buttonLoad" Text="Load Product" Clicked="OnLoadProductClicked" />
+        
+        <!-- Product Editing Fields -->
+        <Entry x:Name="productNameEntry" Placeholder="Product Name" IsVisible="False" />
+        <Entry x:Name="productPriceEntry" Placeholder="Price" Keyboard="Numeric" IsVisible="False" />
+        <Button x:Name="buttonSave" Text="Save Changes" Clicked="OnSaveClicked" IsVisible="False" />
+    </StackLayout>
+</ContentPage>

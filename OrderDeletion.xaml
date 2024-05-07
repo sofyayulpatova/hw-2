@@ -1,0 +1,22 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="homework2.OrderDeletion"
+             Title="Create Order">
+             <ScrollView>
+                <VerticalStackLayout Spacing="20" Padding="30">
+
+
+
+            <Label Text="Choose an order"
+                   FontAttributes="Bold" />
+            <Entry x:Name="OrderId"
+                   Placeholder="GUID" />
+
+
+
+            <Button Text="Delete Order"
+                Clicked="DeleteOrderClicked"/>
+
+                </VerticalStackLayout>
+                </ScrollView>
+ </ContentPage>

@@ -1,0 +1,56 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="homework2.OrderCreation"
+             Title="Create Order">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+            <!-- Customer id entry -->
+            <Label Text="Choose a customer"
+                   FontAttributes="Bold" />
+            <Entry x:Name="CustomerIdEntry"
+                   Placeholder="Id" />
+
+
+            <!-- Employee id entry -->
+            <Label Text="Choose a employee"
+                   FontAttributes="Bold" />
+            <Entry x:Name="EmployeeIdEntry"
+                   Placeholder="Id" />  
+
+                   <!-- products :)-->
+            
+            
+            
+            
+            <Label Text="Enter product details" />
+            <Label Text="Enter Mpn, separator (;) and quantity as in the example" />
+            <Label Text="use /n in order to add multiple products"/>
+
+            <Editor x:Name ="ProductDetails"
+                 Placeholder="Mpn; Quantity"/>
+            
+            
+            
+                <!-- FontAttributes="Bold" />       
+            <CollectionView x:Name="ProductsView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10" ColumnDefinitions="*, Auto">
+                            <Label Text="{Binding Mpn}" VerticalOptions="Center" Grid.Column="0"/>
+                            <Entry x:Name="Quantity" Keyboard="Numeric" WidthRequest="100" Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView> --> 
+                
+                   
+            
+            
+
+            
+            
+            <!-- Button to Submit Order -->
+            <Button Text="Submit Order" Clicked="OrderCreateClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

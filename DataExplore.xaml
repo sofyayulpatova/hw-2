@@ -1,0 +1,58 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="homework2.DataExplore"
+             Title="Data Explore">
+
+    <VerticalStackLayout Spacing="25" Padding="30">
+        
+        <Label Text="Welcome to Data Explore page!"
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand" />
+
+               <Button Text="Create new object"
+                Clicked="CreateNewObjectClicked"/>
+ 
+
+
+                <!-- The collection to display all the imformation. I used headings to distinguis the data-->
+                <Label Text="Products"/>
+
+                <Button Text="Edit product"
+                Clicked="EditProductClicked"/>
+                
+
+               <ListView x:Name="ProductsView" ItemsSource="{Binding Items}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding .}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                
+
+
+                <Label Text="Persons"/>
+                
+               <ListView x:Name="PeronsView" ItemsSource="{Binding Items}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding .}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Label Text="Orders"/>
+
+                <Button Text="Delete Order"
+                Clicked="DeleteOrderClicked"/>
+
+               <ListView x:Name="OrdersView" ItemsSource="{Binding Items}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding .}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+    </VerticalStackLayout>
+</ContentPage>
